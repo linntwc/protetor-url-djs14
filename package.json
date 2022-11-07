@@ -2,7 +2,7 @@
   "name": "protetor-de-url",
   "version": "1.0.0",
   "description": "bot protetor de url",
-  "main": "main.js",
+  "main": "botStart.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,9 @@
   "author": "Linn",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.6.0"
+    "discord-logs": "^2.2.1",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2"
   }
 }
