@@ -16,10 +16,12 @@ protect.on('ready', async() => {
 });
 
 protect.on('guildVanityURLUpdate', async(guild, oldVanityURL, newVanityURL) => {
+    if(guild.id !== process.env.serverId) return;
     if(newVanityURL !== process.env.urlProtect) protectUrl(guild)
 });
 
 protect.on('guildVanityURLRemove', async(guild, VanityURL) => {
+    if(guild.id !== process.env.serverId) return;
     protectUrl(guild)
 });
 
