@@ -1,4 +1,4 @@
-import { GatewayIntentBits, Partials, Collection, Client } from 'discord.js';
+import { GatewayIntentBits, Partials, Client } from 'discord.js';
 import dotenv from 'dotenv';
 import logs from 'discord-logs';
 import protectUrl from './botFunctions/urlProtect.js';
